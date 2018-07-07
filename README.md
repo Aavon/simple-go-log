@@ -7,8 +7,7 @@ if LOG_TO_FILE is true ,it supoorts file log.
 Set the logger level , flags...
 
 ```go
-// import micro/go-log
-import "github.com/XXX/go-log"
+import "github.com/XXX/simple-go-log"
 
 // SetLogger expects github.com/go-log/log.Logger interface
 log.SetLogger(mylogger)
